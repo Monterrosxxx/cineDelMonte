@@ -31,7 +31,7 @@ Mi Diario de Cine está construido con tecnologías modernas de React, enfocánd
 
 <div align="center">
 <img src="https://d2jdgazzki9vjm.cloudfront.net/tutorial/reactjs/images/reactjs-tutorial.png" alt="React.js" width="120" height="100">&ensp;
-<img src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" alt="Vite" width="120" height="100">&ensp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png" alt="Vite" width="120" height="100">&ensp;
 <img src="https://react-hook-form.com/images/logo/react-hook-form-logo-only.png" alt="React Hook Form" width="120" height="100">
 </div>
 
