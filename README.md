@@ -291,35 +291,3 @@ export const API_URL = 'https://retoolapi.dev/vmJ8AL/peliculas';
 </tr>
 </table>
 </div>
-
-<hr>
-
-<h2>🎯 Próximas funcionalidades</h2>
-
-<ul>
-  <li>🔐 Sistema de autenticación de usuarios</li>
-  <li>📊 Dashboard con estadísticas de películas</li>
-  <li>🎨 Temas personalizables (modo oscuro/claro)</li>
-  <li>📤 Exportar colección a PDF/Excel</li>
-  <li>🔗 Integración con APIs de información cinematográfica</li>
-  <li>👥 Compartir listas con otros usuarios</li>
-</ul>
-
-<hr>
-
-<h2>🤝 Contribuir</h2>
-
-Las contribuciones son bienvenidas. Para cambios importantes:
-
-1. Fork el proyecto
-2. Crea una rama feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-<hr>
-
-<div align="center">
-  <p>Desarrollado con ❤️ para los amantes del cine</p>
-  <p><strong>Mi Diario de Cine</strong> - Tu próxima película favorita te está esperando 🍿</p>
-</div>
