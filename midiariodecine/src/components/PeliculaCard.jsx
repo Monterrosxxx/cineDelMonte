@@ -1,6 +1,14 @@
+/**
+ * Componente que representa una tarjeta de película individual
+ * @param {object} movie - Datos de la película a mostrar
+ * @param {function} onEdit - Función para editar la película 
+ * @param {function} onDelete - Función para eliminar la película
+ * @param {function} getStarRating - Función que convierte calificación numérica a estrellas
+ */
 const PeliculaCard = ({ movie, onEdit, onDelete, getStarRating }) => {
   return (
     <div className="movie-card">
+      {/* Encabezado con título y acciones */}
       <div className="movie-header">
         <h3 className="movie-title">{movie.pelicula}</h3>
         <div className="movie-actions">
@@ -21,6 +29,7 @@ const PeliculaCard = ({ movie, onEdit, onDelete, getStarRating }) => {
         </div>
       </div>
       
+      {/* Detalles de la película */}
       <div className="movie-details">
         <div className="movie-genre">
           <span className="genre-tag">{movie.genero}</span>

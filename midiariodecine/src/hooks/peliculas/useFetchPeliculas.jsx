@@ -1,12 +1,17 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
+/**
+ * Custom hook para manejar la obtención y gestión de películas
+ * @returns {Object} Objeto con películas, estado de carga y funciones de manejo
+ */
 const useFetchPeliculas = () => {
   const [peliculas, setPeliculas] = useState([]);
   const [loading, setLoading] = useState(true);
 
   const API_URL = 'https://retoolapi.dev/vmJ8AL/peliculas';
 
+  // Obtener todas las películas
   const getPeliculas = async () => {
     try {
       setLoading(true);
@@ -37,6 +42,7 @@ const useFetchPeliculas = () => {
     }
   };
 
+  // Obtener película por ID
   const getPeliculaById = async (id) => {
     try {
       const response = await fetch(`${API_URL}/${id}`);
@@ -52,6 +58,7 @@ const useFetchPeliculas = () => {
     }
   };
 
+  // Cargar películas al montar el componente
   useEffect(() => {
     getPeliculas();
   }, []);

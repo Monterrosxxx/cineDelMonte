@@ -1,8 +1,14 @@
 import { toast } from "react-hot-toast";
 
+/**
+ * Custom hook para manejar las acciones CRUD de películas
+ * @param {function} getPeliculas - Función para refrescar la lista de películas
+ * @returns {Object} Objeto con funciones para guardar, actualizar y eliminar películas
+ */
 const usePeliculaActions = (getPeliculas) => {
   const API_URL = 'https://retoolapi.dev/vmJ8AL/peliculas';
 
+  // Guardar nueva película
   const savePelicula = async (peliculaData) => {
     try {
       const response = await fetch(API_URL, {
@@ -25,6 +31,7 @@ const usePeliculaActions = (getPeliculas) => {
     }
   };
 
+  // Actualizar película existente
   const updatePelicula = async (id, peliculaData) => {
     try {
       const response = await fetch(`${API_URL}/${id}`, {
@@ -47,6 +54,7 @@ const usePeliculaActions = (getPeliculas) => {
     }
   };
 
+  // Eliminar película
   const deletePelicula = async (id) => {
     try {
       const response = await fetch(`${API_URL}/${id}`, { 
