@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import './Home.css';
+import "../styles/Home.css";
 
 // Importar componentes
 import SearchBar from './SearchBar';
