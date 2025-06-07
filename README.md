@@ -254,12 +254,6 @@ export const API_URL = 'https://retoolapi.dev/vmJ8AL/peliculas';
     <p style='margin: 5px 0;'>📍 Abre <a href="http://localhost:5173">http://localhost:5173</a> en tu navegador</p>
   </div>
   
-  <div style='background: white; padding: 12px; border-radius: 8px; border: 1px solid #ffc107; margin-top: 15px;'>
-    <h4 style='margin-top: 0; color: #f39c12;'>🏗️ Producción</h4>
-    <p style='margin: 5px 0;'><code>npm run build</code></p>
-    <p style='margin: 5px 0;'><code>npm run preview</code></p>
-  </div>
-  
   <div style='background: #fff3cd; border: 1px solid #ffeaa7; padding: 10px; border-radius: 5px; margin-top: 15px;'>
     <p style='margin: 0;'><strong>💡 Tip:</strong> La aplicación funciona completamente del lado del cliente y se conecta automáticamente a la API. ¡No necesitas configurar ningún backend!</p>
   </div>
